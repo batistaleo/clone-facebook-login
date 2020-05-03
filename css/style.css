@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+header, main{
+    padding: 0 2%;
+    margin: 0 auto;
+    
+}
+
+header{
+    background-color: #4267B2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    margin-left: 10%;
+}
+
+.logo h1{
+    font-size: 32px;
+}
+
+form.form-login{
+   margin-right: 10%;
+   margin-left: 40%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.form-login .form-element{
+    margin-right:15px;
+}
+
+.form-element p{
+    color: white;
+    font-size: 14px;
+}
+
+.form-element input[type=email], .form-element input[type=password]{
+    margin-top: 4px;
+    padding-left: 4px;
+    border: 0;
+    height: 20px;
+}
+
+.form-element input[type=submit]{
+    cursor: pointer;
+    border: 1px solid rgb(6, 44, 122);
+    background:#2852a7;
+    padding: 2px 8px;
+    color: white;
+    margin-top: 22px;
+}
+
+.form-element input[type=submit]:hover{
+    background: #0f3b94;
+}
+
+main{
+    background:linear-gradient(#ffffff, #D3D8E8);
+    padding: 40px 0;
+    width: 100%;
+    display: flex;
+}
+
+.section-1{
+    margin-top: 10px;
+    margin-left: 12%;
+    margin-right: 40px;
+    width: 50%;
+}
+
+.texto-1{
+    max-width: 65%;
+    margin-bottom: 10px;
+}
+
+.section-2{
+    width: 50%;
+}
+
+.abrir-conta h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.abrir-conta h3{
+    font-size: 19px;
+    color: #141414;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+form.criar-conta{
+    margin-top: 10px;
+    max-width: 500px;
+    
+}
+
+.w50{
+    padding: 0 5px;
+    width: 50%;
+    
+}
+
+.w100{
+    padding: 0 5px;
+    width: 100%;
+}
+
+form.criar-conta input{
+    width: 100%;
+    margin-top: 8px;
+}
+
+form.criar-conta input[type="text"], form.criar-conta input[type="email"], form.criar-conta input[type="password"]{
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
